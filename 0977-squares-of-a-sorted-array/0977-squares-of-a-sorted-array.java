@@ -4,7 +4,7 @@ class Solution {
         int n = nums.length;
         int[] ans = new int[n];
 
-        int left = 0;
+       int left = 0;
         int right = n - 1;
         int index = n - 1;
 
@@ -27,3 +27,6 @@ class Solution {
         return ans;
     }
 }
+
+
+
